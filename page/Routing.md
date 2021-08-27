@@ -13,7 +13,7 @@
 * [Dispatching a Router](#dispatching-a-router)
 * [Dependency Injection](#dependency-injection)
 * [Events](#events)
-* [Boot Manager](#boot-manager)
+* [BootManager](#boot-manager)
 * [Misc](#misc)
 
 # Basic Routing
@@ -321,7 +321,7 @@ $router->map(['GET'], 'posts/{id?}', function($id) {
 });
 ```
 
-# Name Routes
+# Named Routes
 
 Routes can be named so that their URL can be generated programatically:
 
