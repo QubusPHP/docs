@@ -13,7 +13,7 @@
 * [Dispatching a Router](#dispatching-a-router)
 * [Dependency Injection](#dependency-injection)
 * [Events](#events)
-* [Boot Manager](#boot-manager)
+* [BootManager](#bootmanager)
 * [Misc](#misc)
 
 # Basic Routing
@@ -321,7 +321,7 @@ $router->map(['GET'], 'posts/{id?}', function($id) {
 });
 ```
 
-# Name Routes
+# Named Routes
 
 Routes can be named so that their URL can be generated programatically:
 
@@ -823,7 +823,7 @@ class DatabaseDebugHandler implements EventHandler
 }
 ```
 
-# Bootmanager
+# BootManager
 
 Sometimes you might find it necessary to store urls in a database, file or similar. In this example, we want the url `/router/article/view/1/` to load the route `/router/hello-world/` which the router knows, because it's defined in the routing file (i.e. routes.php). Please note the that `/router` part of the url is an example of when the route is installed in a subdirectory. For this example, the route is installed in a subdirectory named `router`.
 

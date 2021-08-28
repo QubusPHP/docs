@@ -14,8 +14,6 @@
     * [Delegations](#delegations)
     * [Preparations](#preparations)
 * [Registering Additional Mappings](#registering-additional-mappings)
-* [Contributing](#contributing)
-* [License](#license)
 
 ## Basic Usage
 
